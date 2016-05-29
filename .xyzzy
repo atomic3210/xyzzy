@@ -1,0 +1,17 @@
+; ==========================
+;  設定ファイル
+; ==========================
+
+;;; 全選択
+(global-set-key #\M-a 'selection-whole-buffer)
+
+;;; カーソル位置から行末まで選択状態にする
+(global-set-key #\C-End 'selection-end-of-line)
+
+;;; redoを設定
+(global-set-key #\C-/ 'redo)
+
+;;; 置換ダイアログ表示
+(global-set-key #\M-r 'replace-dialog)
+
+
